@@ -3,23 +3,26 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value == 1:
+    # the next line should read "card.value == 1:"
+    if card.value = 1:
       return True
-    else:
+    # missing colon after else
+    else
       return False
    
-
-  def highest_card(self, card1, card2):
-    if card1.value > card2.value:
-        return card1
-    else:
-        return card2
+# spelling error on def, missing comma after card1
+  dif highest_card(self, card1 card2):
+  #the next 4 lines of code are indented incorrectly.
+  if card1.value > card2.value:
+    #next line should return "card1" as card is not declared in this
+    return card
+  else:
+    return card2
   
 
-
 def cards_total(self, cards):
-  total = 0
+  #total has no value
+  total
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  
